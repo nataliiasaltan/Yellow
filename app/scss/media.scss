@@ -1,0 +1,474 @@
+@media only screen and (max-width: 1199px) {
+  .logo__text {
+    display: none;
+  }
+
+  .nav {
+    padding-right: 7px;
+  }
+
+  .slick-btn.slick-next {
+    left: 96%;
+  }
+
+  .top__title {
+    font-size: 47px;
+    letter-spacing: 0, 47;
+  }
+
+  .top__title span {
+    font-size: 47px;
+    letter-spacing: 0, 27;
+  }
+
+  .twitter__img {
+    padding: 50px 76px;
+  }
+
+  .main__text {
+    max-width: 314px;
+  }
+
+  .data {
+    margin-left: 61px;
+  }
+
+  .footer__text {
+    margin-right: 100px;
+  }
+
+  .logo__footer {
+    margin-left: 100px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .top__title,
+  .top__title span {
+    display: none;
+  }
+
+  .slick-btn.slick-next {
+    left: 85%;
+  }
+
+  .main__wrapper {
+    flex: none;
+    display: block;
+  }
+
+  .main__inner {
+    padding-bottom: 15px;
+    justify-content: space-around;
+  }
+
+  .main__inner-two {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 15px;
+    justify-content: space-around;
+  }
+
+  .twitter {
+    margin-left: 0px;
+    display: flex;
+  }
+
+  .inet__form {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .inet__form imput {
+    width: 275px;
+    height: 43px;
+    border-radius: 100px;
+    margin-bottom: 15px;
+    margin-right: 16px;
+    outline: none;
+    border: none;
+    padding: 5px 22px;
+    color: #8f8e8e;
+    font-size: 14px;
+    font-weight: 400;
+    position: relative;
+    font-family: "Fira Sans Condensed", sans-serif;
+    line-height: 16px;
+  }
+
+  .twit-1 {
+    background-color: #fff;
+    margin-top: 16px;
+  }
+
+  .twit-2,
+  .twit-3 {
+    background-color: rgb(252, 238, 181);
+  }
+
+  a.tweet__btn {
+    position: relative;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    z-index: 1;
+    height: 32px;
+    width: 203px;
+    background-color: #fff;
+    line-height: 24px;
+  }
+
+  a.tweet__btn:after {
+    content: "tweet";
+    position: absolute;
+    width: 72px;
+    z-index: -1;
+    top: -2px;
+    bottom: -2px;
+    left: 200px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    background-color: #e6a523;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    cursor: pointer;
+  }
+
+  .data {
+    display: none;
+  }
+
+  .display__wrapper {
+    display: block;
+  }
+
+  .display__title {
+    text-align: left;
+    padding-left: 15px;
+    font-size: 27px;
+  }
+
+  .display__inner {
+    margin-right: 30px;
+  }
+
+  .display__list {
+    margin-top: 40px;
+    margin-bottom: 0;
+    padding-bottom: 40px;
+  }
+}
+
+@media only screen and (max-width: 940px) {
+  .logo__text {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 830px) {
+  .logo__title {
+    letter-spacing: 0, 30px;
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container__header {
+    position: relative;
+  }
+
+  .menu__btn.icon-navicon {
+    display: block;
+    margin-top: 90px;
+    position: absolute;
+    left: 90%;
+    color: #b99403;
+    background-color: #f5c506;
+    border: none;
+    outline: none;
+    z-index: 25;
+  }
+
+  .nav ul {
+    display: none;
+    position: absolute;
+    text-align: center;
+    height: auto;
+    width: 100%;
+    left: 0;
+    right: 0;
+    z-index: 20;
+    flex: none;
+    margin-top: 120px;
+    padding-left: 0px;
+    box-shadow: 0px -5px 0px -3px #947f15;
+  }
+
+  .nav li {
+    display: block;
+  }
+
+  .nav li + li {
+    padding-left: 0px;
+  }
+
+  .nav__list-user,
+  .nav__list-wrench,
+  .nav__list-envelope {
+    font-size: 26px;
+    display: block;
+    color: #4c4c4c;
+    padding: 10px;
+  }
+
+  .nav__list-user:before {
+    display: none;
+  }
+
+  .nav__list-user:after {
+    display: none;
+  }
+
+  .nav__list-wrench:before {
+    display: none;
+  }
+
+  .nav__list-wrench:after {
+    display: none;
+  }
+
+  .nav__list-envelope:before {
+    display: none;
+  }
+
+  .nav__list-envelope:after {
+    display: none;
+  }
+
+  .slick-slide,
+  .slick-current.slick-active {
+    margin-left: 0;
+  }
+
+  .slick-btn.slick-next.slick-arrow,
+  .slick-btn.slick-prev.slick-arrow {
+    display: none;
+  }
+
+  .slick-dots[role="tablist"] {
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .slick-dots li {
+    display: inline-block;
+  }
+
+  #slick-slide-control00,
+  #slick-slide-control01 {
+    display: block;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #f5c506;
+  }
+
+  .download__text {
+    text-align: center;
+  }
+
+  .download {
+    padding-right: 25px;
+  }
+
+  .customise {
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+
+  .free {
+    padding-left: 25px;
+    padding-right: 30px;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main__title {
+    padding: 47px 0px 40px 15px;
+    font-size: 27px;
+    width: 100%;
+  }
+
+  .main__text {
+    width: 100%;
+  }
+
+  .twit-1 {
+    background-color: #fff;
+    margin-top: 16px;
+  }
+
+  .twit-2,
+  .twit-3 {
+    background-color: rgb(252, 238, 181);
+  }
+
+  .inet__form textarea:before {
+    width: 0;
+    height: 0;
+    right: 0;
+    border-top: 5px solid transparent;
+    border-right: 10px solid red;
+    border-bottom: 5px solid transparent;
+  }
+
+  .tweet {
+    width: 100%;
+    height: 34px;
+    border-radius: 5%;
+    margin-bottom: 11px;
+  }
+
+  .twiter:before {
+    display: none;
+  }
+
+  a.tweet__btn {
+    position: relative;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    z-index: 1;
+    height: 32px;
+    width: 203px;
+    background-color: #fff;
+    line-height: 24px;
+  }
+
+  a.tweet__btn:after {
+    content: "tweet";
+    position: absolute;
+    width: 72px;
+    z-index: -1;
+    top: -2px;
+    bottom: -2px;
+    left: 200px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    background-color: #e6a523;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    cursor: pointer;
+  }
+
+  .display__title {
+    text-align: left;
+    padding-left: 15px;
+    font-size: 27px;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  .footer__text {
+    display: none;
+  }
+
+  .logo__footer {
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 662px) {
+  .twitter {
+    display: none;
+  }
+
+  .main__inner {
+    flex: none;
+    display: block;
+  }
+
+  .main__text {
+    margin: 0 auto;
+  }
+
+  .video {
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .inet__form {
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .slick-dots {
+    right: 28%;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .player__button1,
+  .player__button2 {
+    left: 44%;
+  }
+
+  .slick-dots {
+    right: 29%;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  .player__button1,
+  .player__button2 {
+    left: 43%;
+  }
+
+  .table {
+    display: none;
+  }
+
+  .lage {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .player__button1,
+  .player__button2 {
+    left: 42%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .player__button1,
+  .player__button2 {
+    left: 41%;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .nav ul {
+    display: block !important;
+  }
+}
